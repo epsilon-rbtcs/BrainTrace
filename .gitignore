@@ -1,0 +1,49 @@
+﻿__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Local databases and runtime data
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+results/
+backend/results/
+
+# Model weights and exported model artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+model2_things/model2_export/
+
+# Large datasets and generated image artifacts
+datasets/
+data/
+**/model*_data/
+**/model*_split/
+**/sample_images*/
+**/outputs/
+
+# Dependencies, builds, caches, logs, and archives
+node_modules/
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+coverage/
+*.log
+*.zip
